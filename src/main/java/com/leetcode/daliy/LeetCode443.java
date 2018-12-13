@@ -69,7 +69,7 @@ public class LeetCode443 {
      */
 
     public static void main(String[] args) {
-        char num[] = new char[]{1, 1, 2, 2, 2, 3, 3, 3, 3};
+        char num[] = new char[]{1};
         System.out.println(Solution.compress(num));
     }
 
@@ -81,22 +81,30 @@ public class LeetCode443 {
             if (chars.length == 0) return 0;
 
             StringBuilder sb = new StringBuilder();
+            //第一个数
             char cur = chars[0];
+            //计数器
             int sum = 1;
+            //从第2个开始  判断与第1个数是否相等
             for (int i = 1; i <= chars.length; i++) {
+                //如果相等 计数器加一  继续下一个数
                 if (i < chars.length && chars[i] == cur) {
                     sum++;
                 } else {
+                    //不相等 记录下这个值
                     sb.append(String.valueOf(cur));
+                    //在值后边加上个数 按题意 只有一个 不加数
                     if (sum > 1) {
                         sb.append(sum);
                     }
+                    //重置 cur 与计数器
                     if (i < chars.length) {
                         cur = chars[i];
                         sum = 1;
                     }
                 }
             }
+            //将sb 拆解成char数组
             char[] compressChar = sb.toString().toCharArray();
             for (int i = 0; i < compressChar.length; i++) {
                 chars[i] = compressChar[i];
@@ -106,4 +114,25 @@ public class LeetCode443 {
 
         }
     }
+
+
+    /**
+     *  这个牛逼~~~
+     * public int compress(char[] chars) {
+     *         int indexAns = 0, index = 0;
+     *         while(index < chars.length){
+     *             char currentChar = chars[index];
+     *             int count = 0;
+     *             while(index < chars.length && chars[index] == currentChar){
+     *                 index++;
+     *                 count++;
+     *             }
+     *             chars[indexAns++] = currentChar;
+     *             if(count != 1)
+     *                 for(char c : Integer.toString(count).toCharArray())
+     *                     chars[indexAns++] = c;
+     *         }
+     *         return indexAns;
+     *     }
+     */
 }
