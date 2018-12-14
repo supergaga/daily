@@ -70,11 +70,10 @@ public class LeetCode443 {
 
     public static void main(String[] args) {
         char num[] = new char[]{1};
-        System.out.println(Solution.compress(num));
+        System.out.println(compress(num));
     }
 
 
-    static class Solution {
         public  static int  compress(char[] chars) {
 
 
@@ -112,7 +111,6 @@ public class LeetCode443 {
             return sb.length();
 
 
-        }
     }
 
 
