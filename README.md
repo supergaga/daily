@@ -1,4 +1,4 @@
-#Daily
+# Daily
 
 Daily practice LeetCode
 
