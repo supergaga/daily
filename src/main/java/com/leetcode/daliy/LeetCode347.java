@@ -57,7 +57,6 @@ public class LeetCode347 {
             //将出现次数做桶的下角标 放入桶中
             int count = map.get(key);
             if (bucker[count] ==null) bucker[count] = new ArrayList<>();
-
             bucker[count].add(key);
         }
         //倒序取出   ：）
