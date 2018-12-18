@@ -29,12 +29,42 @@ public class LeetCode75 {
      */
 
     public static void main(String[] args) {
-        int nums[] = new int[]{2,0,1};
+        int nums[] = new int[]{1,1,2,2};
         sortColors(nums);
         System.out.println(Arrays.toString(nums));
     }
 
     public static void sortColors(int[] nums) {
+
+
+        /**
+         *      int i = -1;
+         *         int j = -1;
+         *         int k = -1;
+         *         for(int p = 0; p < nums.length; p ++){
+         *             //根据第i个数字，挪动0~i-1串。
+         *             if(nums[p] == 0)
+         *             {
+         *                 nums[++k] = 2;    //2往后挪
+         *                 nums[++j] = 1;    //1往后挪
+         *                 nums[++i] = 0;    //0往后挪
+         *             }
+         *             else if(nums[p] == 1)
+         *             {
+         *                 nums[++k] = 2;
+         *                 nums[++j] = 1;
+         *             }
+         *             else
+         *                 nums[++k] = 2;
+         *         }
+         *
+         *
+         *         神仙代码  >..<  !!!!!!
+         */
+
+
+
+
         //固定住left和right位置  然后遍历i 目的是将0移动到left   2移动到right
         int left = 0;
         int right = nums.length-1;
