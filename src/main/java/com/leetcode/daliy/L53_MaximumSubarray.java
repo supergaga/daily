@@ -39,7 +39,7 @@ public class L53_MaximumSubarray {
         int max = target[0];
 
         for (int i = 1; i < nums.length; i++) {
-            //求从坐标1往后的 到每个坐标上所能拿到的最大的值
+            //求从坐标1往后的 到每个坐标上所能拿到的最大的值   判断当前位置和  当前位置与之前所有数值的和的大小
             target[i] = Math.max(nums[i],target[i-1]+nums[i]);
             max = Math.max(max,target[i]);
         }
