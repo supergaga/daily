@@ -28,18 +28,18 @@ public class L69_Sqrt_x {
      */
 
     public static void main(String[] args) {
-        System.out.println(mySqrt(1));
+        System.out.println(mySqrt(4));
     }
 
     public static int mySqrt(int x) {
         // 平方根 一定小于 1/2    所以用右边做右边界
-        double right = (x/2)+1;
+        long right = (x/2)+1;
         // 左边界为0
-        double left = 0;
+        long left = 0;
         //二分法
         while (left<=right){
 
-            double mid = (right + left) / 2;
+            long mid = (right + left) / 2;
 
             if (mid * mid == x){
                 return  (int)mid;
