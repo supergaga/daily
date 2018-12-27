@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/17
  * @Description
  */
-public class LeetCode26 {
+public class L26_RemoveDuplicatesFromSortedArray {
     /**
      * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
      *

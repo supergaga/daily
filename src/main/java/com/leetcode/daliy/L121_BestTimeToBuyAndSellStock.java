@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/25
  * @Description
  */
-public class LeetCode121 {
+public class L121_BestTimeToBuyAndSellStock {
     /**
      *
      * Say you have an array for which the ith element is the price of a given stock on day i.

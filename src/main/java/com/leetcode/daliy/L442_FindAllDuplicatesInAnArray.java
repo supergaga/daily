@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode442 {
+public class L442_FindAllDuplicatesInAnArray {
 
 
     /**

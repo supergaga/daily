@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode27 {
+public class L27_RemoveElement {
 
 
     /**

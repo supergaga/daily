@@ -10,7 +10,7 @@ import java.util.Map;
  * @date 2018/12/15
  * @Description
  */
-public class LeetCode347 {
+public class L347_TopKFrequentElements {
 
     /**
      * Given a non-empty array of integers, return the k most frequent elements.

@@ -9,7 +9,7 @@ import java.util.Map;
  * @date 2018/12/13
  * @Description
  */
-public class LeetCode1 {
+public class L1_TwoSum {
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  *

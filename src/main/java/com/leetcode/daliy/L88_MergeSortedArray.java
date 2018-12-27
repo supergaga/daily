@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode88 {
+public class L88_MergeSortedArray {
 
 
     /**

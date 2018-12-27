@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode108 {
+public class L108_ConvertSortedArrayToBinarySearchTree {
     /**
      * Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
      *

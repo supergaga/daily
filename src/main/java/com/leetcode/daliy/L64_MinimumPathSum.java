@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode64 {
+public class L64_MinimumPathSum {
     /**
      * Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
      *

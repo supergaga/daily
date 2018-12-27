@@ -10,7 +10,7 @@ import java.util.Map;
  * @date 2018/12/17
  * @Description
  */
-public class LeetCode451 {
+public class L451_SortCharactersByFrequency {
 
     /**
      *

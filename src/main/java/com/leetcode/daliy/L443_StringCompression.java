@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/13
  * @Description
  */
-public class LeetCode443 {
+public class L443_StringCompression {
 
 
     /**

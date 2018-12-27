@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/17
  * @Description
  */
-public class LeetCode125 {
+public class L125_ValidPalindrome {
     /**
      * Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
      *

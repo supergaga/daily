@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2018/12/14
  * @Description
  */
-public class LeetCode66 {
+public class L66_PlusOne {
     /**
      * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
      *

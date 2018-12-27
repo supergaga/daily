@@ -9,7 +9,7 @@ import java.util.Map;
  * @date 2018/12/24
  * @Description
  */
-public class LeetCode122 {
+public class L122_BestTimeToBuyAndSellStockII {
     /**
      *
      * Say you have an array for which the ith element is the price of a given stock on day i.

@@ -5,7 +5,7 @@ package com.leetcode.daliy;
  * @date 2018/12/26
  * @Description
  */
-public class LeetCode53 {
+public class L53_MaximumSubarray {
 
 
     /**

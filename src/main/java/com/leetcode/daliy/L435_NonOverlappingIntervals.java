@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2018/12/20
  * @Description
  */
-public class LeetCode435 {
+public class L435_NonOverlappingIntervals {
     /**
      * Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
      *
