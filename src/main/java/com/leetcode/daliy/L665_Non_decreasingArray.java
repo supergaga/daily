@@ -33,7 +33,7 @@ public class L665_Non_decreasingArray {
         while (i<=nums.length-1){
             if (nums[i-1]>nums[i]){
                 result++;
-                //如果碰到要修改的  最小的修改力度是跟前一个相等
+                //如果碰到要修改的  最小的修改力度是跟前一个相等 如果是第一个的话 就修改为与下一个相等
                 if (i-2<0 || nums[i-2] <=nums[i]){
                     nums[i-1] = nums[i];
                 }else {
