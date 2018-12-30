@@ -39,6 +39,9 @@ public class L754_ReachANumber {
 
     public static int reachNumber(int target) {
         //首先  全部往右走 和 其中一步往左走相差的距离是偶数
+
+        //  距离  我第三步  应该是+3  但是变成-3     1+2+3 =6    1+2-3=0   其实是损失了2*3   就是如果有一步
+        //  往左走  必定损失 2*i
         target = Math.abs(target);
         int step = 0;
         int sum = 0;
@@ -47,10 +50,11 @@ public class L754_ReachANumber {
             step++;
             sum += step;
         }
-        //如果 等于的时候可以直接返回
+        //如果 等于的时候可以直接返回  正好走到
         if (sum == target) return step;
         //如果相差是偶数 说明 其中一步往左走就可以到达
         if ((sum - target) % 2 == 0) return step;
+
         //奇数的话 就找到 满足是偶数的值 返回
         while ((sum - target) % 2 != 0) {
             step++;
