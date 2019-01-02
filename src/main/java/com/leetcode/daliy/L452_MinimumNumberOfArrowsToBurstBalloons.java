@@ -44,13 +44,12 @@ public class L452_MinimumNumberOfArrowsToBurstBalloons {
         int start = points[0][1];
         for(int i = 1;i < points.length;i++){
             if(points[i][0] <= start){
-            if(points[i][1]<start)
-            start = points[i][1];
-        }else {
-            output++;
-            start = points[i][1];
-        }
-
+                if(points[i][1]<start)
+                start = points[i][1];
+            }else {
+                output++;
+                start = points[i][1];
+            }
         }
         return output;
 
