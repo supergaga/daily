@@ -63,3 +63,21 @@ public class L754_ReachANumber {
         return step;
     }
 }
+
+//  泽神的代码
+//class Solution {
+//    public int reachNumber(int target) {
+//        target = Math.abs(target);
+//        int res = (int) Math.sqrt(2 * target);
+//        if ((res * res + res) / 2 == target) {
+//            return res;
+//        } else if (((res * res + res) / 2 + res + 1) == target) {
+//            return res + 1;
+//        } else {
+//            while (((res * res + res) / 2 - target) < 0 || ((res * res + res) / 2 - target) % 2 != 0) {
+//                res++;
+//            }
+//            return res;
+//        }
+//    }
+//}
