@@ -40,7 +40,7 @@ public class L812_LargestTriangleArea {
 
     }
     public static double largestTriangleArea(int[][] points) {
-    //就是三角公式  ：）
+        //就是三角公式  ：）
         double are = 0;
 
         for (int i = 0; i < points.length; i++) {
