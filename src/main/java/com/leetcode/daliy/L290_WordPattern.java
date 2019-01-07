@@ -58,8 +58,6 @@ public class L290_WordPattern {
             }else {
                 //如果没有出现 看 str中的值 是否在别的下面出现过
                 if (map.containsValue(strings[i])) return false;
-
-
                 //没在别的下面出现过  放入
                 map.put(c,strings[i]);
             }
