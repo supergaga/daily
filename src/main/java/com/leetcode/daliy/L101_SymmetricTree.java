@@ -28,9 +28,6 @@ public class L101_SymmetricTree {
      * @see <a href="https://leetcode.com/problems/symmetric-tree/"/>
      */
 
-    public static void main(String[] args) {
-
-    }
 
     public static boolean isSymmetric(TreeNode root) {
         //根节点  左右节点都不是null

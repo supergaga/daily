@@ -32,6 +32,7 @@ public class L559_MaximumDepthOfN_AryTree {
      */
 
     public int maxDepth(Node root) {
+        //递归
         if (root == null) return 0;
         int max = 0;
         for (Node child : root.children) {
