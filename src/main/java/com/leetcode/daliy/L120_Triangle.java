@@ -43,7 +43,6 @@ public class L120_Triangle {
                     result[j] = triangle.get(i).get(j);
                 }else {
                     //在最后一排的时候  result会被初始化为 最后一排本来的值 因为 result[j+1]为0
-
                     //遍历完最后一排 倒着遍历的话  每次都是 上一排 相同的位置 或者下个位置 最小值  加上当前位置的值 重新覆盖  result有数值的长度越来越小
                     //到 三角的尖上 就只剩一个了 直接返回result[0] 就行
                     result[j] = Math.min(result[j],result[j+1]) + triangle.get(i).get(j);
