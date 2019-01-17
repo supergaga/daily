@@ -34,10 +34,10 @@ public class L334_IncreasingTripletSubsequence {
             int min = Integer.MAX_VALUE;
         for (int num : nums) {
             //先找一个最小的数
-            if (num<min){
+            if (num<=min){
                 min= num;
                 //当大于这个数 进入下一个判断
-            }else if (num <max){
+            }else if (num <=max){
                 max = num;
                 //不满足 找到第三个 递增的  返回true
             }else {
