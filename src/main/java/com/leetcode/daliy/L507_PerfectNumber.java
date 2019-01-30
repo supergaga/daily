@@ -28,7 +28,7 @@ public class L507_PerfectNumber {
         //第一个因子肯定是1
         int sum = 1;
         //可以通过  num/i找到较大的那个数 所以  范围在平方根一下寻找就可以
-        for (int i = 2; i < (int)Math.sqrt(num); i++) {
+        for (int i = 2; i <= (int)Math.sqrt(num); i++) {
             //如果能被整除  就找出来两个因子 相加
             if (num%i == 0)sum = sum+i +num/i;
         }
