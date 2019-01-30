@@ -24,6 +24,7 @@ public class L182_DuplicateEmails {
      * | a@b.com |
      * +---------+
      * Note: All emails are in lowercase.
+     * @see <a href="https://leetcode.com/problems/duplicate-emails/"/>
      */
 
     /**

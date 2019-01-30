@@ -28,6 +28,7 @@ public class L196_DeleteDuplicateEmails {
      * Note:
      *
      * Your output is the whole Person table after executing your sql. Use delete statement.
+     * @see <a href ="https://leetcode.com/problems/delete-duplicate-emails/"/>
      */
 
 
