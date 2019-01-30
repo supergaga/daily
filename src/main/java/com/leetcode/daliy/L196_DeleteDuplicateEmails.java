@@ -36,4 +36,22 @@ public class L196_DeleteDuplicateEmails {
      * from person p , person q
      * where p.Email = q.Email and p.Id>q.Id
      */
+
+    /**
+     *
+     *  没看懂
+     *
+     * This can be solved by Rank () of MySQL 8.0.
+     *
+     * delete from Person
+     * where (
+     * Id in (
+     * select a. Id from
+     * (select Id, Email, rank()over(partition by Email order by Id asc)as MyRank
+     * from Person)a
+     * where MyRank<>1
+     *    )
+     * );
+     */
+
 }
