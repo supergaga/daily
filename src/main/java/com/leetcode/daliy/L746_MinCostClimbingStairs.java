@@ -33,6 +33,7 @@ public class L746_MinCostClimbingStairs {
         dp[1] = cost[1];
         for (int i = 2; i < length; i++) {
             //  这个题 描述有问题  这个if  判断的是最后一步 如果两步登顶 是要算最后一步的值的  如果是一步登顶 是不用算最后一步的值的
+            //  就像他第一个例子   如果是从0开始 直接两步登顶  是要消耗  30的  而从1开始 一步登顶 只需要消耗15就可以  跟正常理解的 从0到2  消耗10个 是不同的
             if (i ==  length-1){
                 dp[i] = Math.min(dp[i-1],dp[i-2]+cost[i]);
             }else {
