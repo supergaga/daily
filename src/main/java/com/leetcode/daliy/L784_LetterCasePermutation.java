@@ -29,7 +29,7 @@ public class L784_LetterCasePermutation {
      */
 
     public static void main(String[] args) {
-
+        System.out.println(letterCasePermutation("a1b2"));
     }
 
     public static List<String> letterCasePermutation(String S) {
