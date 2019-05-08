@@ -30,6 +30,7 @@ public class L1_TwoSum {
         System.out.println(Arrays.toString(twoSum(num,9)));
         System.out.println("hi");
         System.out.println("dididdid");
+        System.out.println("hhhhhhhhhhhhhh");
         System.out.println("9999999");
         System.out.println("dididdid");
         System.out.println("hhhhhhhhhhhhhh");
