@@ -34,6 +34,8 @@ public class L1_TwoSum {
         System.out.println("9999999");
         System.out.println("dididdid");
         System.out.println("hhhhhhhhhhhhhh");
+        System.out.println("9999999");
+
 
     }
 
