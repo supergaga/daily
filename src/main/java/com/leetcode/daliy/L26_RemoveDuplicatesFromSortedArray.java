@@ -55,6 +55,7 @@ public class L26_RemoveDuplicatesFromSortedArray {
             return 0;
         }
         if (nums.length ==1){
+
             return 1;
         }
         int first = 0;
