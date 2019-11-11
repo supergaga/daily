@@ -7,16 +7,29 @@ package com.leetcode.daliy;
  */
 public class L162 {
     public static void main(String[] args) {
-        int a[] = new int[]{1,2,1,3,5,6,4};
+        int a[] = new int[]{1, 2, 1, 3, 5, 6, 4};
         System.out.println(findPeakElement(a));
     }
+
     public static int findPeakElement(int[] nums) {
 
-        for (int i = 0; i < nums.length-1; i++) {
-            if (nums[i+1]<nums[i]){
-                return i;
+//        for (int i = 0; i < nums.length-1; i++) {
+//            if (nums[i+1]<nums[i]){
+//                return i;
+//            }
+//        }
+//        return nums.length-1;
+
+        int start = 0;
+        int end = nums.length - 1;
+        while (start < end) {
+            int mid = start + end + 1 >> 1;
+            if (nums[mid] < nums[mid - 1]) {
+                end = mid - 1;
+            } else {
+                start = mid;
             }
         }
-        return nums.length-1;
+        return start;
     }
 }
