@@ -25,6 +25,7 @@ public class L162 {
 //
 //        A:aaa  :again
 //        C: hellokkkk
+
 //ddddd
 //  masterA:99999
 //ddddd
@@ -33,6 +34,11 @@ public class L162 {
 
 //cccc
 //        A
+
+
+//  masterA:99999
+//        A:aaa
+//cccc
 
         int start = 0;
         int end = nums.length - 1;
