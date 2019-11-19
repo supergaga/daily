@@ -27,6 +27,7 @@ public class L162 {
 //        C: hellokkkk
 
 //        A:aaa
+//        A
 
         int start = 0;
         int end = nums.length - 1;
