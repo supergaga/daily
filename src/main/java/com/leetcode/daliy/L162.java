@@ -17,8 +17,9 @@ public class L162 {
 //            if (nums[i+1]<nums[i]){
 //                return i;
 //            }
+//        }aaa
+//        return nums.length-1;zzz
 //        }
-//        return nums.length-1;zz
 
         int start = 0;
         int end = nums.length - 1;
