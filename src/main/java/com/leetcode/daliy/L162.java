@@ -23,6 +23,7 @@ public class L162 {
 //        }
 //        B:bbbb
 
+//        A:aaa
 
         int start = 0;
         int end = nums.length - 1;
