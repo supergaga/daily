@@ -33,12 +33,12 @@ public class L1_TwoSum {
 
 
         public static int[] twoSum(int[] nums, int target) {
-            Map result =  new HashMap<>();
+            Map<Integer,Integer> result =  new HashMap<>();
 
             for (int i = 0; i < nums.length; i++) {
                 int temp = target - nums[i];
                 if (result.containsKey(temp)){
-                    return new int[]{i,(int)result.get(temp)};
+                    return new int[]{i, result.get(temp)};
                 }
                 result.put(nums[i],i);
             }
